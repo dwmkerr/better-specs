@@ -22,14 +22,22 @@ Logging In - Happy Path
 If the controls are filled in correctly as stated above, the
 successful login process is:
 
-1. User enters a username.
-2. User enters a password.
-3. The 'login' button becomes enabled.
+1. The 'login' button is enabled by default.
+2. User enters a username.
+3. User enters a password.
 4. When 'login' is pressed, the button immediately becomes disabled
    and a spinner is shown to the left of the button caption.
 5. When login succeededs, the application immediately moves to the 'profile'
    page.
 
+Logging In - First Time Validation
+----------------------------------
+
+The login form will only show validation messages AFTER a click of the login
+button. Rather than confusing the user with lots of red boxes with warning messages
+such as 'the password field is mandatory', we'll give them a chance to key everything
+in right first. If there's anything wrong, *then* we show the validation messages.
+ 
 Logging In - Bad Credentials
 ----------------------------
 
