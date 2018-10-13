@@ -1,6 +1,8 @@
 better-specs
 ============
 
+[![GuardRails badge](https://badges.production.guardrails.io/dwmkerr/better-specs.svg)](https://www.guardrails.io)
+
 (For the original post please go to [Better Specifications](http://www.dwmkerr.com/better-specifications/).
 This repository contains examples of how pull requests and so on work with markdown specifications.
 
