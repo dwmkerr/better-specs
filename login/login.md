@@ -55,3 +55,5 @@ are wrong, the login process is:
    * The password box is cleared.
 6. Finally, an alert above the login box is shown with the title 'Login Failed'
    and the message 'Your username or password is incorrect'.
+7. If the credentials are entered incorrectly three times, the user account
+   is locked out.
